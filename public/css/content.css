@@ -1,0 +1,7 @@
+.content ul {
+    padding-left: var(--medium-padding);
+}
+
+.content li {
+    list-style-type: square;
+}

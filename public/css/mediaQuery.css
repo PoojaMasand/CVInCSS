@@ -1,0 +1,27 @@
+@media (min-width: 550px) {
+    .introduction .personal-info {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        text-align: left;
+    }
+    .introduction .pic {
+        margin-right: var(--big-padding);
+    }
+}
+
+@media (min-width: 550px) {
+    .content .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: var(--medium-padding);
+    }
+}
+
+@media (min-width: 750px) {
+    .content .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: var(--medium-padding);
+    }
+}
+
